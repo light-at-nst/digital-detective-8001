@@ -1,13 +1,12 @@
-
 # The Digital Detective
 
 ### Diwali Independent Learning Assignment
 
 Welcome to my Digital Detective assignment!
 
-This repository contains my work, experiments, observations, and learnings from the assignment. It is basically a journey through how computers work, from the hardware and operating system to programming, networking, and version control.
+This repository documents my work through a series of hands-on missions exploring how computers work. It covers everything from computer hardware and operating systems to programming, number representation, version control and networking.
 
-The assignment is divided into nine missions. Each mission focuses on a different concept and includes practical tasks that help me understand things by actually doing them.
+Each mission includes its own README with the tasks completed, commands or tools used, observations and what I learned along the way.
 
 ## Missions
 
@@ -25,49 +24,47 @@ The assignment is divided into nine missions. Each mission focuses on a differen
 
 ## What This Assignment Covers
 
-Here's a glimpse of what I'll be exploring:
-
-- **Computer Fundamentals:** Understanding hardware, software and how a computer processes information using IPOS.
-- **Terminal:** Navigating directories, managing files, using command flags and working with pipes.
-- **Operating Systems:** Exploring processes, storage, memory, paths and file permissions.
-- **Program Execution:** Understanding how compilers and interpreters work.
-- **Numbers and Data:** Working with binary, decimal and hexadecimal numbers, along with Python and text encoding.
-- **Version Control:** Learning Git workflows, branches, commits and Pull Requests.
-- **Networking:** Exploring LAN, MAN, WAN, DNS, routers, protocols and client-server communication.
+- **Computer Fundamentals:** Hardware, software and the IPOS model.
+- **Terminal:** Directory navigation, file management, command flags, pipes and package managers.
+- **Operating Systems:** Processes, storage, memory, paths, file permissions and system responsibilities.
+- **Program Execution:** How programs run and the differences between compilers and interpreters.
+- **Numbers and Data:** Decimal, binary and hexadecimal conversions, Python and character encoding.
+- **Version Control:** Git commands, staging, commits, branches, remote repositories and Pull Requests.
+- **Networking:** LAN, MAN, WAN, DNS, routers, protocols, packet switching and client-server communication.
 
 ## Number Converter
 
-One of the programming tasks in this assignment is to build a small Python program that converts decimal numbers into binary and hexadecimal.
+Mission 5 includes a small Python program that accepts a decimal number and displays its binary and hexadecimal representations.
 
-Once you've reached Mission 5, you can run it using:
+To run it from the repository root:
 
 ```bash
 cd mission-05-numbers-data
 python3 number_converter.py
 ```
 
+The program uses Python's built-in `input()`, `int()`, `bin()` and `hex()` functions.
+
 ## My Learning
 
 - **Computer fundamentals and operating systems:** I learned how hardware and software work together through the IPOS model. I also explored how an operating system manages processes, memory, storage and file permissions.
-
-- **Working with the Terminal:** I became more comfortable navigating directories, managing files and using command-line tools. I also learned how absolute and relative paths work.
-
+- **Working with the Terminal:** I became more comfortable navigating directories, managing files and using command-line tools. I also learned how absolute and relative paths, flags and pipes work.
 - **Programming and data representation:** I explored how programs are executed, compared compilers and interpreters, and practised converting numbers between decimal, binary and hexadecimal. Building the Python number converter helped connect these concepts with actual code.
+- **Version control and collaboration:** I learned how Git tracks changes, how staging differs from committing, and how branches and Pull Requests help organise development. I also created and merged a Pull Request to update this README.
+- **Computer networking:** I explored how devices communicate, how DNS resolves domain names, and how routers, protocols and packet switching help data travel across networks. I also used Terminal to test connectivity and perform DNS lookups.
 
 ## Repository Organisation
 
-I've kept everything organised into separate folders, with each mission having its own README.md.
+The repository is organised into separate folders for all nine missions. Each mission has its own `README.md` containing its work and explanations.
 
-The `evidence/` directory is reserved for screenshots and other supporting outputs collected during the practical activities.
-
-This makes it easier to navigate through the assignment and keep track of everything.
+The Python number converter and the other practical files are stored in their respective mission folders. Supporting outputs and observations are documented alongside the relevant tasks.
 
 ## Commits and Progress
 
-I'm using Git to track my progress throughout the assignment.
+Each mission has been documented and committed separately using Git. The commits are pushed to the public GitHub repository, making the progress and development history visible.
 
-Each mission is completed, documented, committed and pushed separately so that the repository maintains a clear history of my work.
+Mission 6 also includes a branch and Pull Request workflow. Pull Request #1 was created from `update-about` into `main` and successfully merged.
 
 ---
 
-**Current Status:** In Progress
+**Repository Status:** All nine missions documented; final report completed. Ready for instructor submission.
