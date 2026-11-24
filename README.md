@@ -46,9 +46,13 @@ cd mission-05-numbers-data
 python3 number_converter.py
 ```
 
-## My Learning Experience
+## My Learning
 
-[I'll update this section as I progress through the missions, adding things I've learned, interesting observations and challenges I've encountered.]
+- **Computer fundamentals and operating systems:** I learned how hardware and software work together through the IPOS model. I also explored how an operating system manages processes, memory, storage and file permissions.
+
+- **Working with the Terminal:** I became more comfortable navigating directories, managing files and using command-line tools. I also learned how absolute and relative paths work.
+
+- **Programming and data representation:** I explored how programs are executed, compared compilers and interpreters, and practised converting numbers between decimal, binary and hexadecimal. Building the Python number converter helped connect these concepts with actual code.
 
 ## Repository Organisation
 
